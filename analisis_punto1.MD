@@ -74,9 +74,7 @@ Notemos que el constructor de la clase es extremadamente similar al `__init__` d
 
 Similarmente su costo será: 
 
-$$
-T_{\text{n}} =  3 \cdot O(1)
-$$
+$$T_{\text{n}} =  3 \cdot O(1)$$
 ---
 
 ---
