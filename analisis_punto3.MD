@@ -39,7 +39,7 @@ Implementa una estructura tipo pila (LIFO) con nodos doblemente ligados.
 **Resultado**:
 
 $$
-T_{\text{init\_stack}} = 2 \cdot O(1) = O(1)
+T_{\text{initStack}} = 2 \cdot O(1) = O(1)
 $$
 
 ---
@@ -109,7 +109,7 @@ $$
 Verifica si la pila está vacía. Solo hace una comparación:
 
 $$
-T_{\text{is\_empty}} = O(1)
+T_{\text{isEmpty}} = O(1)
 $$
 
 ---
@@ -134,7 +134,7 @@ Similarmente a los métodos anteriores, de inmediato concluimos:
 **Resultado:**
 
 $$
-T_{\text{init\_matcher}} = O(1)
+T_{\text{initMatcher}} = O(1)
 $$
 
 ---
