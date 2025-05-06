@@ -319,7 +319,7 @@ Tenemos varios términos: **\( O(1) \)**, y  **O(n)**, pero ya sabemos que exist
 Por lo tanto despreciando constantes y complejidades de menor orden podemos concluir que:
 
 $$
-\boxed{T_{\text{contar\_frecuencias}} = O(n^2)}
+\boxed{T_{\text{contarFrecuencias}} = O(n^2)}
 $$
 
 ---
@@ -382,7 +382,7 @@ T(n) = 2 \cdot O(1) + 3n \cdot O(1) + O(1) = O(1) + O(n) + O(1)
 $$
 
 $$
-\Rightarrow \boxed{T_{\text{frecuencia\_maxima}}(n) = O(n)}
+\Rightarrow \boxed{T_{\text{frecuenciaMaxima}}(n) = O(n)}
 $$
 
 El término dominante es lineal, por lo tanto, la complejidad de este método es: **$$ \boxed{O(n)} $$**
@@ -391,7 +391,7 @@ El término dominante es lineal, por lo tanto, la complejidad de este método es
 Analogamente a métodos anteriores, tenemos operaciones de magnitud constante O(1) al principio, seguidas operaciones de magnitud (O(1)) detro de un bucle aninado, que se repiten para cada nodo. Podemos a este punto concluir que la frecuencia predominante es O(n).
 
 $$
-T_{\text{frecuencia\_maxima}}(n) = O(n)
+T_{\text{frecuenciaMaxima}}(n) = O(n)
 $$
 ---
 
@@ -455,14 +455,14 @@ T(n) = 3 \cdot O(1) + 4n \cdot O(1) + O(1)
 $$
 
 $$
-\Rightarrow \boxed{T_{\text{contar\_modas}}(n) = O(n)}
+\Rightarrow \boxed{T_{\text{contarModas}}(n) = O(n)}
 $$
 
 
 Este método es de **complejidad lineal**, ya que recorre la lista una sola vez con operaciones constantes en cada paso.
 
 $$
-T_{\text{contar\_modas}}(n) = O(n)
+T_{\text{contarModas}}(n) = O(n)
 $$
 
 ---
