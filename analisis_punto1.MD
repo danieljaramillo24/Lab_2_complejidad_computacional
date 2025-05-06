@@ -388,9 +388,7 @@ El término dominante es lineal, por lo tanto, la complejidad de este método es
 
 Analogamente a métodos anteriores, tenemos operaciones de magnitud constante O(1) al principio, seguidas operaciones de magnitud (O(1)) detro de un bucle aninado, que se repiten para cada nodo. Podemos a este punto concluir que la frecuencia predominante es O(n).
 
-$$
-T_{\text{frecuenciaMaxima}}(n) = O(n)
-$$
+$$T_{\text{frecuenciaMaxima}}(n) = O(n)$$
 ---
 
 ### Método `contar_modas`
@@ -492,7 +490,7 @@ $$
 El término cuadrático domina:
 
 $$
-\boxed{T_{\text{get\_mode}} = O(n^2)}
+\boxed{T_{\text{getMode}} = O(n^2)}
 $$
 
 ---
