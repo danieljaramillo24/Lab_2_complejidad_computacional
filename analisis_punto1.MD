@@ -155,7 +155,7 @@ $$
 Se suman los costos fuera y dentro del bucle:
 
 $$
-T_{\text{print\_ldl}} = 3 \cdot O(1) + n \cdot 3 \cdot O(1)
+T_{\text{printLdl}} = 3 \cdot O(1) + n \cdot 3 \cdot O(1)
 $$
 
 ---
@@ -175,7 +175,7 @@ $$
 El término \( O(n) \) es el de mayor relavancia , \( O(1) \) es despreciable, por lo tanto:
 
 $$
-\boxed{T_{\text{print\_ldl}} = O(n)}
+\boxed{T_{\text{printLdl}} = O(n)}
 $$
 
 ---
